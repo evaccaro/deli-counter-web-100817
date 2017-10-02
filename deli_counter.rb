@@ -9,3 +9,8 @@ def line(list)
   puts "The line is currently: #{lines}".chomp(" ")
 end
 end
+
+def take_a_number(line, person)
+  line.push(person)
+  return person
+end
