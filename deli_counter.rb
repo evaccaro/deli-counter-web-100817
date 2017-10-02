@@ -4,7 +4,7 @@ def line(list)
     puts "The line is currently empty."
   else
     list.each do |person|
-      lines += "#{list.index(person)+1}. #{person}"
+      lines += "#{list.index(person)+1}. #{person} "
   end
   puts "The line is currently: #{lines}"
 end
