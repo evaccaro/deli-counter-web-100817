@@ -12,5 +12,5 @@ end
 
 def take_a_number(line, person)
   line.push(person)
-  return person
+  "Welcome, #{person}. You are number #{line.index(person)+1} in line."
 end
