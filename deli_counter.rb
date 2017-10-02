@@ -1,5 +1,5 @@
 def line(list)
-  lines = " "
+  lines = " x"
   if list.length == 0
     puts "The line is currently empty."
   else
