@@ -6,7 +6,6 @@ def line(list)
     list.each do |person|
       lines += `#{list.index(person)+1}. #{person}"`
   end
-
-end
   puts "The line is currently: #{lines}"
+end
 end
